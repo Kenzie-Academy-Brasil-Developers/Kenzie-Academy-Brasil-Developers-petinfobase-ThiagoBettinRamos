@@ -1,0 +1,42 @@
+.back-login-indice{
+    width: 8.25rem;
+    height: 2rem;
+    border-radius: 0.25rem;
+    background-color: #FCFEFF;
+    border: 1px solid #D9D9D9
+}
+
+.register{
+    width: 20rem;
+    height: 2.375rem;
+    border-radius: 0.25rem;
+    background-color: #364FC7;
+    border: none;
+    color: white;
+}
+
+.back-login{
+    width: 20rem;
+    height: 2.375rem;
+    border-radius: 0.25rem;
+    background-color: #FCFEFF;
+    border: 1px solid #D9D9D9;
+}
+
+.register:hover{
+    transform: scale(1.02);
+}
+
+.back-login:hover{
+    background-color: var(--grey-8);
+    transition: 300ms;
+}
+.back-login-indice:hover{
+    background-color: var(--grey-8);
+    transition: 300ms;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}

@@ -1,13 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="./css/buttons.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/input.css">
+    <link rel="stylesheet/less" type="text/css" href="../../styles/fonts.less">
     <title>Petinfo - Login</title>
 </head>
+
 <body>
-    <main></main>
-    <script type="module" src="index.js"></script>
+    <main>
+        <section class="container-infos">
+            <div class="container-box">
+                <h1 class="font-title-1 color-grey-1">Petinfo</h1>
+                <h2 class="font-title-1-bold color-grey-2"><span style="color: #364FC7">Amor</span> e <span style="color: #364FC7">carinho </span>por meio do conhecimento</h2>
+                <p class="font-title-4 color-grey-1">Todas as informações para melhorar a vida do seu pet em um só lugar</p>
+                <div>
+                    <img src="../../assets/img-login.png" alt="animals">
+                </div>
+            </div>
+        </section>
+        <section class="container-register">
+            <div class="indice">
+                <h2 class="font-title-2 color-grey-1">Login</h2>
+            </div>
+            <div>
+                <form class="input-user">
+                    <label class="font-title-4 color-grey-1">Email</label>
+                    <input class="register-inputs" type="email" name="email" id="email"placeholder="Digite seu email aqui" required="true">
+                </form>
+            </div>
+            <div>
+                <form class="input-user">
+                    <label class="font-title-4 color-grey-1">Senha</label>
+                    <input class="register-inputs" type="password" name="password" id="password" placeholder="Digite seu senha aqui" required="true">
+                </form>
+            </div>
+            <div class="input-login">
+                <button class="back-login font-title-4 disabled" id="login">Acessar</button>
+            </div>
+            <div class="input-login aling-text">
+                <span class="font-title-5-bold color-grey-1">Ainda não possui conta?</span>
+                <p class="font-text-2 color-grey-1">Clicando no botão abaixo, você pode se cadastrar rapidamente</p>
+            </div>
+            <div class="input-login">
+                <a href="../cadastro/index.html">
+                <button class="register font-title-4 color-grey-1">Cadastrar</button>
+                </a>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
 </body>
+
 </html>

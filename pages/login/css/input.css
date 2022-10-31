@@ -1,0 +1,12 @@
+.register-inputs{
+    width: 20rem;
+    height: 2.75rem;
+    border-radius: 0.25rem;
+    background-color: #F8F9FA;
+    border: 0.063rem solid #E9ECEF;
+    padding: 0.375rem;
+}
+
+.invalid {
+    border: 0.063rem solid var(--alert-1);
+}

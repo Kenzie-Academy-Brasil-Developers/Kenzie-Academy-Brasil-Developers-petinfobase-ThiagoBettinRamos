@@ -3,24 +3,47 @@
   padding: 0;
   box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap%27'); 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap%27');
 
 :root {
-  --brand100: "hsl(230, 57%, 50%)";
-  --brand200: "hsl(230, 68%, 54%)";
-  --gray100: "hsl(210, 11%, 15%)";
-  --gray200: "hsl(210, 10%, 23%)";
-  --gray300: "hsl(210, 9%, 31%)";
-  --gray400: "hsl(210, 7%, 56%)";
-  --gray500: "hsl(210, 11%, 71%)";
-  --gray600: "hsl(210, 16%, 93%)";
-  --gray700: "hsl(210, 17%, 95%)";
-  --gray800: "hsl(210, 17%, 98%)";
-  --gray900: "hsl(200, 100%, 99%)";
-  --alert100: "hsl(349, 57%, 50%)";
-  --alert200: "hsl(349, 69%, 55%)";
-  --sucess100: "hsl(162, 88%, 26%)";
+  --brand-1:  #364FC7;
+  --brand-2:  #3B56D9;
+  --grey-1:   #212529;
+  --grey-2:   #343A40;
+  --grey-3:   #495057;
+  --grey-4:   #868E96;
+  --grey-5:   #ADB5BD;
+  --grey-6:   #E9ECEF;
+  --grey-7:   #F1F3F5;
+  --grey-8:   #F8F9FA;
+  --grey-9:   #FCFEFF;
+  --alert-1:  #C73650;
+  --alert-2:  #DB3C58;
+  --sucess:   #087F5B;
 }
 
-body {
-  font-family: "Inter, sans-serif";
+* {
+  font-family: 'IBM Plex Sans', sans-serif;
 }
+
+button{
+  cursor: pointer;
+}
+.container-creat > img{
+  cursor: pointer;
+}
+
+.spinning {
+  animation: spinning 3s linear infinite;
+}
+
+@keyframes spinning {
+  0%{
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 359deg;
+  }
+}
+

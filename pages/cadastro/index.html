@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/alert.css">
+    <link rel="stylesheet" href="./css/buttons.css">
+    <link rel="stylesheet" href="./css/inputs.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet/less" type="text/css" href="../../styles/fonts.less">
+    <title>Petinfo - Cadastro</title>
+</head>
+<body>
+    <main>
+        <section class="container-register">
+            <div class="indice">
+                <h2 class="font-title-3 color-grey-1">Cadastro</h2>
+                <a href="../login/index.html">
+                <button class="back-login-indice font-title-5 color-grey-1">Volte para o login</button>
+                </a>
+            </div>
+            <div>
+                <form class="input-user">
+                <label class="font-title-4 color-grey-1">Usuário</label>
+                <input class="register-inputs" type="text" name="user" id="user" placeholder="Digite seu usuário aqui" required="true">
+                </form>
+            </div>
+            <div>
+                <form class="input-user">
+                    <label class="font-title-4 color-grey-1">Email</label>
+                    <input class="register-inputs" type="email" name="email" id="email" placeholder="Digite seu email aqui" required="true">
+                </form>
+            </div>
+            <div>
+                <form class="input-user">
+                    <label class="font-title-4 color-grey-1">Link da foto do perfil</label>
+                    <input class="register-inputs" type="text" name="avatar" id="link" placeholder="Insira o link aqui" required="true">
+                </form>
+            </div>
+            <div>
+                <form class="input-user">
+                    <label class="font-title-4 color-grey-1">Senha</label>
+                    <input class="register-inputs" type="password" name="password" id="password" placeholder="Digite seu senha aqui" required="true">
+                </form>
+            </div>
+            <div class="input-login">
+                <button class="register font-title-4 disabled" id="register">Cadastrar</button>
+                <a href="../login/index.html">
+                <button class="back-login font-title-4 color-grey-1">Voltar para o login</button>
+                </a>
+            </div>
+        </section>
+        <section class="container-infos">
+            <div class="container-box">
+                <h1 class="font-title-1 color-grey-1">Petinfo</h1>
+                <h2 class="font-title-1-bold color-brand-1">Ooooooba!</h2>
+                <p class="font-title-4 color-grey-1">Agora vamos poder contribuir para o bem estar do seu pet por meio do conhecimento</p>
+                <div>
+                    <img src="../../assets/Group 14.png" alt="animals">
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/less" ></script>
+    <script type="module" src="./index.js"></script>
+
+</body>
+</html>

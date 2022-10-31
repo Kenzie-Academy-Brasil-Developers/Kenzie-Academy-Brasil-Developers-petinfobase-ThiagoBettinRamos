@@ -1,0 +1,1 @@
+window.location.assign("./pages/login/index.html")
